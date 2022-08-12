@@ -1,0 +1,56 @@
+.hero-section{
+    font-family: Inter;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)) , url('../../public/pic1-2.png');
+    color:white;
+    padding: 80px;
+    padding-top: 200px;
+    background-size:cover;
+}
+.hero-section>.main-text>h1{
+    max-width:20vw;
+    justify-self: start;
+    font-size:35px;
+}
+.pic-group{
+    display:flex;
+}
+@font-face{
+    font-family:Inter;
+    src: url("../../public/inter/Inter-V.ttf")
+}
+.hero-section>.main-text>p{
+    justify-self: start;
+    margin-top: 10px;
+    max-width: 20vw;
+    left: 49px;
+    top: 259px;
+    border-radius: nullpx;   
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.scroll-prompt{
+    opacity:0.9;
+    width:fit-content;
+    height:100%;
+    vertical-align: bottom;
+    text-align: center;
+    font-size:20px;
+    justify-self: end;
+    align-self: center;
+}
+@media(max-width:1200px){
+    .hero-section>.main-text>p{
+        justify-self: start;
+        margin-top: 10px;
+        max-width: 45vw;
+        left: 49px;
+        top: 259px;
+        border-radius: nullpx;   
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+    .hero-section>.main-text>h1>b{
+        width:100vw;
+    }
+}
